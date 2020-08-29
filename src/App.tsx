@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AboutMe from "./AboutMe";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Projects from "./Projects";
+import React from "react";
+import Row from "react-bootstrap/Row";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="m-3">
+    <Container>
+      <Row className="justify-content-center">
+        <Col>
+          <AboutMe />
+        </Col>
+        <Col>
+          <Projects />
+        </Col>
+      </Row>
+    </Container>
+  </div>
+);
 
 export default App;
