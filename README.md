@@ -8,3 +8,7 @@ My personal portfolio.
 
 - Font Awesome icons used under the [Font Awesome Free License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 - Darkly theme from [Bootswatch](https://bootswatch.com) used under the MIT License
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
