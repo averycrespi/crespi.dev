@@ -23,8 +23,6 @@ const Projects = () => (
     <Card.Header as="h4">
       <FontAwesomeIcon icon={faGamepad} />{" "}
       <a href="https://github.com/averycrespi/thinktank">Thinktank</a>
-      {" - "}
-      <a href="https://thinktank.crespi.dev">demo</a>
     </Card.Header>
     <Card.Body>
       <Card.Text>A 2-player strategy game based on Conundrum.</Card.Text>
@@ -43,8 +41,6 @@ const Projects = () => (
     <Card.Header as="h4">
       <FontAwesomeIcon icon={faEgg} />{" "}
       <a href="https://github.com/averycrespi/yolk">Yolk</a>
-      {" - "}
-      <a href="https://yolk.crespi.dev">demo</a>
     </Card.Header>
     <Card.Body>
       <Card.Text>A domain-specific language for numerical computing.</Card.Text>
