@@ -34,18 +34,27 @@ const AboutMe = () => (
       </Row>
       <Row className="my-3">
         <Col>
-          <Button className="m-1" href="https://github.com/averycrespi">
+          <Button
+            variant="outline-success"
+            className="m-1"
+            href="https://github.com/averycrespi"
+          >
             <FontAwesomeIcon icon={faGithub} />
             <span> GitHub</span>
           </Button>
           <Button
+            variant="outline-success"
             className="m-1"
             href="https://www.linkedin.com/in/avery-crespi-baa23219a/"
           >
             <FontAwesomeIcon icon={faLinkedin} />
             <span> LinkedIn</span>
           </Button>
-          <Button className="m-1" href="mailto:averycrespi@gmail.com">
+          <Button
+            variant="outline-success"
+            className="m-1"
+            href="mailto:averycrespi@gmail.com"
+          >
             <FontAwesomeIcon icon={faEnvelope} />
             <span> Email</span>
           </Button>
